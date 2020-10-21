@@ -1,7 +1,42 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #30475e;
+    background-color: #cbaf87;
+    
+}
+header {
+    text-align: center;
+    background-color: #7e8a97;
+    width: 100%;
+    position:sticky;
+    z-index: 100;
+    width: 100;
+    top:0;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+    
+.nav:link {
+    color: rosybrown;
+}
+.nav:visited {
+    color: silver
 }
 
-p {
-    color:rgb(34,183,221)
+.sports {
+    color:teal
+}
+img {
+    float: left;
+    margin-right: 10px;
+}
+.clear {
+    clear: both;
+}
+main {
+    background-color: #e7dec8;   
 }
